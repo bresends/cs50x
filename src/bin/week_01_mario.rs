@@ -1,7 +1,7 @@
 use cs50_rust::get_int;
 
 fn main() {
-    let size = get_int("Please insert the minimum number: ");
+    let size = get_int("Please insert how many rows you want: ");
     println!("{}", create_pyramid(size));
 }
 
